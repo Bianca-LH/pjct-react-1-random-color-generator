@@ -19,13 +19,7 @@ export default function App() {
       >
         Generate
       </button>
-      <div>
-        style=
-        {{
-          backgroundColor: colorChip,
-        }}
-        Generated color: {colorChip}
-      </div>
+      <div>{`Generated color: ${colorChip}}`}</div>
     </div>
   );
 }
