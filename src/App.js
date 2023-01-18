@@ -19,7 +19,7 @@ export default function App() {
       >
         Generate
       </button>
-      <div>background color hex code: {colorChip}</div>
+      <div>Generated Color: background color hex code {colorChip}</div>
     </div>
   );
 }
