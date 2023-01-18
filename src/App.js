@@ -17,7 +17,7 @@ export default function App() {
           setColorChip(color());
         }}
       >
-        Generated
+        Generate
       </button>
       <div>background color hex code: {colorChip}</div>
     </div>
