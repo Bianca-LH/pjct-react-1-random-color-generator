@@ -25,7 +25,7 @@ export default function App() {
           borderRadius: '10px',
           backgroundColor: colorChip,
         }}
-      >{`Generated Color: ${colorChip}`}</div>
+      >{`Generated Color: ${colorChip.toUpperCase}`}</div>
     </div>
   );
 }
