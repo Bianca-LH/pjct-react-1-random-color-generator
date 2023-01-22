@@ -1,4 +1,4 @@
-import color from 'node-random-color';
+import color from 'random-color-hex-generator';
 import { useState } from 'react';
 
 export default function App() {
