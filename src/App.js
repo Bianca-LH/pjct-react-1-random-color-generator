@@ -25,7 +25,14 @@ export default function App() {
           borderRadius: '10px',
           backgroundColor: colorChip,
         }}
-      >{`Generated Color: ${colorChip.toUpperCase}`}</div>
+      >{`Generated Color: ${colorChip.toUpperCase()}`}</div>
     </div>
   );
 }
+
+// function changeToUpperCase(color) {
+//   return color.toUpperCase();
+// }
+// const result = changeToUpperCase("#dc2843");
+
+// console.log(result);
